@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CTET Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0f17;
+      color: #fff;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 250px;
+    }
+    .btn {
+      background: linear-gradient(135deg, #d3c610, #da0aa9);
+      color: #fff;
+      padding: 14px;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+    }
+    .hindi {
+      display: block;
+      font-size: 13px;
+      color: #e4e8f2;
+      margin-top: 4px;
+    }
+
+</style>
+</head>
+<body>
+    
+  <div class="menu">
+    <a class="btn" href="/index.html">back</a>
+    <a href="exp.html" class="btn">📘 Explanation <span class="hindi">(व्याख्या)</span></a>
+    <a href="notes.html" class="btn">📝 Notes <span class="hindi">(नोट्स)</span></a>
+    <a href="qns.html" class="btn">❓ Questions <span class="hindi">(प्रश्न)</span></a>
+    <a href="ans.html" class="btn">✅ Answers <span class="hindi">(उत्तर)</span></a>
+  </div>
+</body>
+</html>
